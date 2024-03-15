@@ -55,6 +55,7 @@
   department:"",
   date:(2023, 04, 17),
   id:"",
+  teacher:"",
 ) = {
   align(center + horizon)[
     #image("asserts/校名.png", width: 60%)
@@ -76,6 +77,8 @@
       _info_value(class),
       _info_key("所在学院"),
       _info_value(department),
+      _info_key("授课教师"),
+      _info_value(teacher),
       _info_key("提交日期"),
       _info_value(text(font: font_style.songti,size: 16pt,)[#date.at(0) 年 #date.at(1) 月 #date.at(2) 日]),
   )

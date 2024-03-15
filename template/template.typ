@@ -17,6 +17,7 @@
   grade:"2021",
   department:"计算机科学与技术学院",
   id:"2020000000",
+  teacher:"测试老师",
   body
 ) = {
   set document(title: title, author: authors);
@@ -39,6 +40,7 @@
       department:department,
       date:date,
       id:id,
+      teacher:teacher,
     );
   } else {
     cover_normal(
