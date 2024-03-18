@@ -58,15 +58,18 @@
   teacher:"",
 ) = {
   align(center + horizon)[
+    #v(-11pt)
     #image("asserts/校名.png", width: 60%)
     #text(title, size: 24pt, font: font_style.songti, weight: "bold")\
     #text("(" + grade + "级)", size: 20pt, font: font_style.songti)\
     #image("asserts/校徽.png", width: 40%)
+    #v(11pt)
 
-      #grid(
+    #grid(
       columns: (70pt, 180pt),
-      rows: (40pt, 40pt),
-      gutter: 3pt,
+      rows: (auto, auto),
+      column-gutter: 3pt,
+      row-gutter: 25.5pt,
       _info_key("实验题目"),
       _info_value(name),
       _info_key("学生姓名"),
@@ -81,7 +84,7 @@
       _info_value(teacher),
       _info_key("提交日期"),
       _info_value(text(font: font_style.songti,size: 16pt,)[#date.at(0) 年 #date.at(1) 月 #date.at(2) 日]),
-  )
+    )
   ]
   pagebreak()
 }
