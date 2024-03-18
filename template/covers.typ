@@ -59,10 +59,10 @@
 ) = {
   align(center + horizon)[
     #v(-11pt)
-    #image("asserts/校名.png", width: 60%)
+    #image("asserts/校名.svg", width: 60%)
     #text(title, size: 24pt, font: font_style.songti, weight: "bold")\
     #text("(" + grade + "级)", size: 20pt, font: font_style.songti)\
-    #image("asserts/校徽.png", width: 40%)
+    #image("asserts/校徽.svg", width: 32%)
     #v(11pt)
 
     #grid(

@@ -51,7 +51,7 @@
 = 大标题测试2
 
 #img(
-image("./template/asserts/校名.png"),
+image("./template/asserts/校名.svg"),
 caption: "测试图片, 浙江工业大学",
 ) <img:test>
 
